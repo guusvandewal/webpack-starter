@@ -1,11 +1,11 @@
 import React from 'react';
 const Arrow = () => {
-  console.log('Test for babel')
+  console.log('Test for babel');
   return <div>🏹</div>;
 };
 
 const Tiles = ({ ...props }) => {
-    return <div>{props.message}</div>
+  return <div>{props.message}</div>;
 };
 
 export default function App() {
